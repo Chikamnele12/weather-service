@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Success | Weather Alert</title>
+  <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body class="text-center">
+<h2>🎉  your Registration was Successful!</h2>
+<p th:text="'Welcome, ' + ${name} + '! You will receive daily weather alerts.'"></p>
+<a href="/" class="btn btn-primary mt-3">Back to Home</a>
+</body>
+</html>
